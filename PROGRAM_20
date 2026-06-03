@@ -1,0 +1,14 @@
+CONVERT tp lowercase
+package day2;
+
+public class tolower {
+
+	public static void main(String[] args) {
+		String str = "JAVA IS FUN";
+		System.out.println(str);
+		System.out.println("Lowercase:"+str.toLowerCase());
+		// TODO Auto-generated method stub
+
+	}
+
+}
