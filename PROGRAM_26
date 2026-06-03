@@ -1,0 +1,13 @@
+INDEXOF 
+package day3;
+
+public class IndexOf {
+
+	public static void main(String[] args) {
+		String str = "Hellow";
+		System.out.println(str.indexOf('t'));
+		// TODO Auto-generated method stub
+
+	}
+
+}
