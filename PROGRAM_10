@@ -1,0 +1,14 @@
+CHARAT METHOD
+
+package day2;
+
+public class charat {
+
+	public static void main(String[] args) {
+		String str ="Java is fun";
+		System.out.println("Character at index:"+str.charAt(0));
+		// TODO Auto-generated method stub
+
+	}
+
+}
