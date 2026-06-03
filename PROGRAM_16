@@ -1,0 +1,17 @@
+STRING BUILDER
+package day2;
+
+public class StringBuilderDemo {
+	    public static void main(String[] args) {
+	    	StringBuilder sb1 = new StringBuilder("Hello");
+	    	StringBuilder sb2 = sb1;
+
+	        sb1.append(" World");
+
+	        if (sb1 == sb2)
+	            System.out.println("Same");
+	        else
+	            System.out.println("Not Same");
+	    }
+	}
+
