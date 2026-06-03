@@ -1,0 +1,19 @@
+FIBONACCI SERIES
+package day3;
+
+public class FibonacciSeries {
+
+	    public static void main(String[] args) {
+	        int first = 0, second = 1;
+
+	        System.out.println("Fibonacci Series up to 10:");
+
+	        while (first <= 10) {
+	            System.out.print(first + " ");
+
+	            int next = first + second;
+	            first = second;
+	            second = next;
+	        }
+	    }
+	}
