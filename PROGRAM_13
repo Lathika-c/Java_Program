@@ -1,0 +1,15 @@
+REPLACE METHOD
+package day2;
+
+public class Replace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java in fun";
+		System.out.println(str);
+		String s1 = str.replace('n', 's');
+		System.out.println("Replace:"+s1);
+
+	}
+
+}
