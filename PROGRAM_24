@@ -1,0 +1,15 @@
+DEFAULT  CONSTRUCTOR
+package day3;
+
+public class DefConstructor {
+	DefConstructor() {
+		System.out.println("Default constructor");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DefConstructor hello = new DefConstructor();
+
+	}
+
+}
