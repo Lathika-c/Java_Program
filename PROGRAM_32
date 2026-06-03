@@ -1,0 +1,19 @@
+package day3;
+
+public class StaticTest {
+	void simpleDisplay() {
+		System.out.println("Example of Instance Method..");
+	}
+	static void staticDisplay() {
+		System.out.println("Static Method Called.");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticTest obj = new StaticTest();
+		obj.simpleDisplay();
+		staticDisplay();
+		
+	}
+
+}
