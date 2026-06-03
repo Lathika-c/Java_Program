@@ -1,0 +1,14 @@
+VARIABLE TEST
+package day2;
+
+public class VarTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello Test..");
+	}
+	static {
+		System.out.println("static Block is invoked");
+	}
+
+}
