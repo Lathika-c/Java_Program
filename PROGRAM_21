@@ -1,0 +1,11 @@
+CONVERT TO UPPERCASE
+package day2;
+
+public class toupper {
+	public static void main(String[] args) {
+		String str = "java is fun";
+		System.out.println(str);
+		System.out.println("Uppercase:"+str.toUpperCase());
+	}
+
+}
