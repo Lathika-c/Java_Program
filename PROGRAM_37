@@ -1,0 +1,24 @@
+package day4;
+interface Vehicle{
+	public void toyoto();
+	public void honda();
+}
+class Car implements Vehicle{
+	public void toyoto() {
+		System.out.println("Toyoto launches FORTUNER...");
+	}
+	public void honda() {
+		System.out.println("Honda launches CITY...");
+	}
+}
+public class InterfaceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car mycar = new Car();
+		mycar.toyoto();
+		mycar.honda();
+
+	}
+
+}
